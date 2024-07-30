@@ -3,7 +3,7 @@ import java.util.LinkedList;
 public class AnimalShelter {
     private LinkedList<Dog> dogs = new LinkedList<>();
     private LinkedList<Cat> cats = new LinkedList<>();
-    private int order = 0; // acts as a timestamp
+    private int order = 0;
 
     public void enqueue(Animal animal) {
         animal.setOrder(order);
